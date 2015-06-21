@@ -11,7 +11,7 @@ Using Rucrede;
 Vector 3 scale = someTransform.localScale;
 Tween scaleTween = Tween.to(scale, scale * 2f, 1.0f, Tween.EaseType.easeInCubicOutSine, 
   (Tween tween) => {someTransform.localScale = (Vector3) tween.Value;},
-  (Tween tween) => {/*handle complete/*}
+  (Tween tween) => {/*handle complete*/}
   , 0f, true, -1);
 ```
 
@@ -23,7 +23,7 @@ Color color1 = new Color(0f, 0f,0f, 1.0f);
 Color color2 = new Color(0f, 0f,0f, 1.0f);
 Tween colorTween = Tween.to(color1, color2, 1.0f, Tween.EaseType.easeInBack, 
   (Tween tween) => {someMaterial.SetColor("_COLOR", (Color) tween.Value);},
-  (Tween tween) => {/*handle complete/*},
+  (Tween tween) => {/*handle complete*/},
   , 0f, false, 0);
 ```
 
