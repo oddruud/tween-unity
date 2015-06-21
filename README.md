@@ -27,7 +27,7 @@ Tween colorTween = Tween.to(color1, color2, 1.0f, Tween.EaseType.easeInBack,
   , 0f, false, 0);
 ```
 
-Rotate Tween effect example:
+Rotate tween effect example:
 ```C#
 Using Rucrede;
 
