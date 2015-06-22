@@ -8,7 +8,7 @@ Looping yoyo scale tween example:
 ```C#
 Using Rucrede;
 
-Vector 3 scale = someTransform.localScale;
+Vector3 scale = someTransform.localScale;
 Tween scaleTween = Tween.to(scale, scale * 2f, 1.0f, Tween.EaseType.easeInCubicOutSine, 
   (Tween tween) => {someTransform.localScale = (Vector3) tween.Value;},
   (Tween tween) => {/*handle complete*/}
